@@ -1,0 +1,26 @@
+{
+    "name": "lswl/sign",
+    "description": "Signature generation.",
+    "keywords": [
+        "lswl",
+        "sign",
+        "signature"
+    ],
+    "homepage": "https://linshaowl.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "linshaowl",
+            "email": "linshaowl@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lswl\\Signature\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.3|^8.0",
+        "ext-json": "*"
+    }
+}
